@@ -7,7 +7,7 @@ body {
   color: #404040;
   background-color: white;
 }
-
+/*main container of the page*/
 .container {
   width: 90%;
   max-width: 1020px;
@@ -96,30 +96,25 @@ body {
   border: 2px solid #a38b70;
   border-radius: 2px;
 }
-
 .btn:hover {
   color: #8d745a;
   border-color: #8d745a;
 }
-
 .btn:active {
   color: rgba(141, 116, 90, 0.3);
   border-color: #8d745a;
 }
-
 .btn-quick-order {
   float: right;
   margin-top: 6px;
   color: #ffffff;
   border-color: #ffffff;
 }
-
 .btn-quick-order:hover {
   color: #404040;
   background-color: #ffffff;
   border-color: #ffffff;
 }
-
 .btn-quick-order:active {
   color: rgba(64, 64, 64, 0.3);
   background-color: #ffffff;
@@ -358,11 +353,12 @@ body {
 .catalog-item {
   position: relative;
   float: left;
-  width: 262px;
   margin-top: 20px;
   margin-right: 48px;
   padding: 15px 22px;
   padding-top: 221px;
+  
+  width: 262px;
 
   border: 1px solid #d8d8d8;
 }
@@ -380,8 +376,8 @@ body {
 }
 
 .catalog-item h3 {
-  float: left;
   max-width: 205px;
+  float: left;
   margin: 0;
   margin-bottom: 20px;
   font-size: 16px;
